@@ -112,6 +112,16 @@ body{
     justify-content: center;
 }
 
+.esquerda1{
+    position: relative;
+    left: 25%;
+}
+
+.esquerda2{
+    position: relative;
+    left: 25%;
+}
+
 .service-container .service-item .service-item-card:hover{
     border: 1px solid #25ca7f;
 }
