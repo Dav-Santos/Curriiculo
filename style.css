@@ -354,3 +354,55 @@ h2.fill-animation::before {
         width: 100%;
     }
 }
+
+
+/*Notebook*/
+@media screen and (max-width: 1366px) {
+    #contact-box{
+        position: relative;
+        left: -90px;
+       width: 900px;
+    }
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    .menu{
+        display: none;
+    }
+    #contact-title{
+        position: relative;
+        left: -130px;
+        padding: 250px;
+    }
+    #contact-box{
+        position: relative;
+        top: -200px;
+        left: -200px;
+        width: 670px;
+    }
+
+    #tel-icon{
+        position: relative;
+        right: -10px;
+    }
+
+    #tel-name{
+        position: relative;
+        right: -10px;
+    }
+
+    #tel-link{
+        position: relative;
+        right: -10px;
+    }
+}
+
+/*Celular*/
+@media screen and (max-width: 600px) {
+    img{
+        display: none;
+    }
+
+}
+
