@@ -93,6 +93,7 @@ body{
     margin-left: 20px;
 }
 
+
 .service-container{
     display: flex;
     flex-wrap: wrap;
@@ -240,7 +241,13 @@ body{
     background-color: #0e0f10;
 }
 
+/*Contato*/
+
 #contactSection{
+    padding: 50px;
+}
+
+#contact-title{
     padding: 50px;
 }
 
@@ -268,6 +275,52 @@ body{
 
 .contact-item-value a:hover{
     text-decoration: underline;
+}
+
+
+#email-icon{
+    position: relative;
+    right: -20px;
+}
+
+#email-link{
+    position: relative;
+    right: -20px;
+}
+
+#email-name{
+    position: relative;
+    right: -20px;
+}
+
+#link-icon{
+    position: relative;
+    right: -40px;
+}
+
+#link-link{
+    position: relative;
+    right: -40px;
+}
+
+#link-name{
+    position: relative;
+    right: -40px;
+}
+
+#tel-icon{
+    position: relative;
+    right: -50px;
+}
+
+#tel-link{
+    position: relative;
+    right: -50px;
+}
+
+#tel-name{
+    position: relative;
+    right: -50px;
 }
 
 h2 .fill-animation {
