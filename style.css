@@ -400,8 +400,134 @@ h2.fill-animation::before {
 
 /*Celular*/
 @media screen and (max-width: 600px) {
+
+    /*Sobre mim */
     img{
         display: none;
     }
 
+    #about-title{
+        position: relative;
+        left: -200px;
+        display: block;
+    }
+    .card-box-body{
+        position: relative;
+        left: -170px;
+    }
+
+    /*Areas de Atuação*/
+    #service-title{
+        position: relative;
+        left: -200px;
+    }
+
+    #service-container-box{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        position: relative;
+        left: -40px;
+    }
+
+    /*Resumo*/
+    #res-title{
+        position: relative;
+        left: -200px;
+    }
+
+    #project{
+        position: relative;
+        left: -200px;
+    }
+
+    #card-box{
+        position: relative;
+        left: -200px;
+    }
+
+    #education{
+        position: relative;
+        left: -200px;
+    }
+
+    #card-box-ed{
+        position: relative;
+        left: -200px;
+        bottom: -50px;
+    }
+
+    /*Tecnologias*/
+
+    #technology-title{
+        position: relative;
+        left: -200px;
+    }
+
+    #progress-bar-card-box{
+        position: relative;
+        left: -165px;
+    }
+
+    /*Contato*/
+    
+    #contact-title{
+        position: relative;
+        left: -350px;
+    }
+
+    #contact-box{
+        position: relative;
+        max-width: 100%;
+        left: -200px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    #email-icon{
+        position: relative;
+        left: 100px;
+    }
+    
+    #email-link{
+        position: relative;
+        left: 100px;
+    }
+
+    #email-name{
+        position: relative;
+        left: 100px;
+    }
+
+    #link-icon{
+        position: relative;
+        left: 100px;
+    }
+
+    #link-link{
+        position: relative;
+        left: 100px;
+    }
+
+    #link-name{
+        position: relative;
+        left: 100px;
+    }
+
+    #tel-icon{
+        position: relative;
+        left: 100px;
+    }
+
+    #tel-link{
+        position: relative;
+        left: 100px;
+    }
+    
+    #tel-name{
+        position: relative;
+        left: 100px;
+    }
 }
+
