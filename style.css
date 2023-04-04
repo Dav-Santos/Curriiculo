@@ -370,16 +370,69 @@ h2.fill-animation::before {
     .menu{
         display: none;
     }
+
+    img{
+        display: none;
+    }
+   
+    #about-title{
+        position: relative;
+        left: -100px;
+    }
+
+    .card-box-body{
+        position: relative;
+        left: -100px;
+    }
+
+    #service-title{
+        position: relative;
+        left: -100px;
+    }
+
+    #service-container-box{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        position: relative;
+        left: 50px;
+    }
+
+    #res-title{
+        position: relative;
+        left: -100px;
+    }
+
+    #project{
+        position: relative;
+        left: -100px;
+    }
+
+    #education{
+        position: relative;
+        left: -100px;
+    }
+
+    #card-box{
+        position: relative;
+        left: -100px;
+    }
+
+    #card-box-ed{
+        position: relative;
+        left: -100px;
+    }
+    
     #contact-title{
         position: relative;
-        left: -130px;
+        left: -200px;
         padding: 250px;
     }
     #contact-box{
         position: relative;
         top: -200px;
         left: -200px;
-        width: 670px;
+        width: 630px;
     }
 
     #tel-icon{
